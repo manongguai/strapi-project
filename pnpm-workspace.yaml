@@ -1,0 +1,9 @@
+packages:
+  #  所有子项目包所在目录
+  - "packages/*"
+  #  所有公共组件所在目录
+  - "components/**"
+  # 公共的api
+  - "api/**"
+  #  过滤test文件
+  - "!**/test/**"
